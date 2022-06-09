@@ -33,10 +33,10 @@ body {
 }
 
 .display {
-   color: yellow;
+   color: white;
    width: 100%;
    padding: 10px 20px;
-   background-color: #7F3102;
+   background-color: #333333;
    border: 1px solid black;
    font-size: 2em;
 }
@@ -64,7 +64,7 @@ body {
 .operator,
 .negative,
 .equals {
-   background: yellow;
+   background: orange;
 }
 
 
@@ -90,12 +90,12 @@ td {
    padding: 16px;
 }
 th {
-   background-color: yellow;
-   color: yellow;
+   background-color: orange;
+   color: white;
 }
 
 tr:nth-child(even) {
-   background-color: #7F3102;
+   background-color: #d2d2d2;
 }
 
 @media screen and (max-width: 513px) {
