@@ -7,18 +7,11 @@ const calculator = {
    waitingForSecondNumber: false
 };
 
-/*Kita gunakan objek ini sebagai tempat menyimpan data dan kondisi pada calculator, di mana angka yang muncul pada layar kalkulator selalu diambil dari data calculator.displayNumber.
-
-Properti operator dan firstNumber kita gunakan nilai null terlebih dahulu karena properti tersebut akan diberikan nilai ketika pengguna melakukan aksi.
-
-Dan properti waitingForSecondNumber merupakan kondisi di mana kalkulator sedang menunggu pengguna menentukkan angka kedua dalam melakukan perhitungan.
-
-Setelah membuat object calculator, selanjutnya kita buat fungsi - fungsi umum yang dilakukan kalkulator seperti meng-update angka pada layar dan menghapus data pada kalkulator.*/
 
 function updateDisplay() {
    document.querySelector("#displayNumber").innerText = calculator.displayNumber;
 }
-//Lalu kita buat juga fungsi untuk memasukkan angka ke dalam nilai displayNumber kalkulator.//
+
 
 function clearCalculator() {
    calculator.displayNumber = '0';
@@ -43,7 +36,7 @@ const buttons = document.querySelectorAll(".button");
 for (let button of buttons) {
    button.addEventListener('click', function(event) {
 
-       // mendapatkan objek elemen yang diklik
+      
        const target = event.target;
 
        if(target.classList.contains('clear')) { //mengaktifkan fungsi Clear//
