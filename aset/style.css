@@ -64,7 +64,7 @@ body {
 .operator,
 .negative,
 .equals {
-   background: orange;
+   background: yellow;
 }
 
 
@@ -90,7 +90,7 @@ td {
    padding: 16px;
 }
 th {
-   background-color: orange;
+   background-color: yellow;
    color: yellow;
 }
 
