@@ -33,10 +33,10 @@ body {
 }
 
 .display {
-   color: white;
+   color: yellow;
    width: 100%;
    padding: 10px 20px;
-   background-color: #333333;
+   background-color: #7F3102;
    border: 1px solid black;
    font-size: 2em;
 }
@@ -91,11 +91,11 @@ td {
 }
 th {
    background-color: orange;
-   color: white;
+   color: yellow;
 }
 
 tr:nth-child(even) {
-   background-color: #d2d2d2;
+   background-color: #7F3102;
 }
 
 @media screen and (max-width: 513px) {
